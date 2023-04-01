@@ -1,3 +1,13 @@
+/*=============== Alert Box ===============*/
+let alertBox = "";
+
+while (alertBox != "Understood") {
+  alertBox = window.prompt(
+    "Note:\nMake sure when changing from dark theme to light theme to have your browser in light mode, otherwise light theme won't work. \n \nType: 'Understood' to continue."
+  );
+}
+console.log(alertBox);
+
 /*=============== CHANGE BACKGROUND HEADER ===============*/
 const scrollHeader = () => {
   const header = document.getElementById("header");
