@@ -1,12 +1,20 @@
 /*=============== Alert Box ===============*/
-let alertBox = "";
+/*let alertBox = "";
 
 while (alertBox != "Understood") {
   alertBox = window.prompt(
     "Note:\nMake sure when changing from dark theme to light theme to have your browser in light mode, otherwise light theme won't work. \n \nType: 'Understood' to continue."
   );
 }
-console.log(alertBox);
+console.log(alertBox);*/
+function myFunction() {
+  var txt;
+  if (confirm("Press a button!")) {
+    txt = "You pressed OK!";
+  } else {
+    txt = "You pressed Cancel!";
+  }
+  console.log(myFunction());
 
 /*=============== CHANGE BACKGROUND HEADER ===============*/
 const scrollHeader = () => {
